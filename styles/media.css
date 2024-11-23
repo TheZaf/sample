@@ -1,0 +1,99 @@
+@media (max-width:1260px){
+    
+    .side-logo-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;  
+    }
+    .side-bar1{
+        width: 72px;
+        display: flex;
+        align-items: center;
+    }
+    .header{
+        width: 72px;
+    }
+    body{
+        justify-content: center;
+    }
+    .myprofile-container{
+       width: 100%;
+    }
+    .section-box{
+        display: none;
+    }
+    .post-container{
+        display: none;
+    }
+    .myprofile-des,.three-dot-cont{
+        display: none;
+    }
+}
+@media (max-width:1105px){
+    .body{
+        justify-content: center;
+    }
+    .suggestion,.right-container{
+        width: 256px;
+        justify-content: space-around;
+        left: 690px;
+        position: fixed;
+    }
+    .search-box{
+        display: flex;
+        flex-direction: row;
+        width: 289px;
+        height: 42px;
+        margin-bottom: 12px;  
+        padding-top: 5px;
+    }
+    .subs-box{
+        width:256px;
+     }  
+     .whats{  
+        width:289px;
+     }
+}
+@media (max-width:1000px) {  
+    .suggestion,.right-container{
+        display: none;
+    }
+    body{
+        justify-content: center; 
+        width: 80%;
+    }
+     .side{
+        /* justify-content: center; */
+        width: 70%;
+    } 
+}
+@media(max-width:550px){
+    .header{
+        display: none;
+    }
+    .side-bar1{
+        display: none;
+    }
+    body{
+        width: 100%;
+        justify-content: start;
+    }
+    .feed-wrap,.feed{
+        width: 99%;
+        padding: 0%;
+    }
+    .tweet-media{
+        width: 95%;
+    }
+    .bottom-stat{
+        width: 95%;
+    }
+    .stat{
+        width: 21%;
+        font-size: 19px;
+    }
+    .user{
+        width: 90%;
+    }
+}
